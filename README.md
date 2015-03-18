@@ -16,3 +16,10 @@ what i will do
 what i won't do
 ===============
 - edit motors (they are realy great)
+
+
+
+Addition to LCD
+===============
+- System.out.println() is working on the Ev3 Display
+  so i will delete this by the next changes
