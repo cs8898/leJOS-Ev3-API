@@ -15,7 +15,7 @@ what i will do
 
 what i won't do
 ===============
-- edit motors (they are realy great)
+- edit motors (they are really great)
 
 
 
