@@ -12,8 +12,8 @@ public class MotorControl{
 	public void rotate(int speed,int direction, int angle, boolean immediateReturn){
 		this.motorLeft.startSynchronization();
 		this.motorRight.startSynchronization();
-		this.motorLeft.setSpeed((int)(direction<0?(100+direction)*0.01*speed:speed));
-		this.motorRight.setSpeed((int)(direction>0?(100-direction)*0.01*speed:speed));
+		this.motorLeft.setSpeed((int)(direction<0?(100+direction)*0.5*speed:speed));
+		this.motorRight.setSpeed((int)(direction>0?(100-direction)*0.5*speed:speed));
 		this.motorLeft.rotate(angle, immediateReturn);
 		this.motorRight.rotate(angle, immediateReturn);
 		this.motorLeft.endSynchronization();
