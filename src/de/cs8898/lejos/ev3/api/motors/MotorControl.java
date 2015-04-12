@@ -21,7 +21,7 @@ public class MotorControl{
 		double uDir = Math.pow(Math.pow(direction, 2),0.5);
 		
 		if (dir > -1)
-			motorSpeed[dir] = (int)(50-uDir)*speed;
+			motorSpeed[dir] = (int)(50-uDir)/50*speed;
 		
 		this.motorLeft.startSynchronization();
 		this.motorRight.startSynchronization();
