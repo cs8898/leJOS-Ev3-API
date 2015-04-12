@@ -1,5 +1,10 @@
 # leJOS-Ev3-API
 
+important note
+==============
+in order to use this lipary you have to symlink my src to yours
+Maybe its just me but i cant add the JAR to the build path
+
 what i have done
 ================
 - made sensors more easy to use (only the get value; the modes are still the same)
