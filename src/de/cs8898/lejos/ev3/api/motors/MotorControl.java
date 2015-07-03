@@ -78,4 +78,9 @@ public class MotorControl{
 		this.motorLeft.endSynchronization();
 		this.motorRight.endSynchronization();
 	}
+
+	public void close() {
+		this.motorLeft.close();
+		this.motorRight.close();
+	}
 }
