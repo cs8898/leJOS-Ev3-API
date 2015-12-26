@@ -23,4 +23,8 @@ public class GyroSensor extends Sensor{
 		this.sampleProvider = this.sensor.getMode(mode);
 		this.sample = new float[this.sensor.sampleSize()];
 	}
+
+	public void reset() {
+		((EV3GyroSensor) this.sensor).reset();
+	}
 }
