@@ -19,7 +19,3 @@ what i won't do
 - edit motors (they are really great)
 - recode LCD (use System.out; currently there are some lines Insider, they are mainly for dev)
 
-bugs:
-- Motorcontrol rotation end isn't sync.
-- Motorcontrol rotate in circle controversal wheel direction
-
